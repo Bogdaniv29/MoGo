@@ -1,0 +1,9 @@
+:root {
+    --logoo-color-:#95E1D3;
+    --main-text-color:#B6B6B6;
+    --titel-color-:#333;
+}
+
+.logo nav__list {
+    color: var(--logoo-color-);
+}
