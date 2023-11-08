@@ -1,9 +1,54 @@
 :root {
-    --logoo-color-:#95E1D3;
-    --main-text-color:#B6B6B6;
-    --titel-color-:#333;
+  --logoo-color-: #95e1d3;
+  --main-text-color: #b6b6b6;
+  --titel-color-: #333;
 }
 
-.logo nav__list {
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* header */
+.header {
+}
+.header__logo {
+  color: var(--logoo-color-);
+  font-size: 30px;
+  font-weight: 700;
+}
+.header__nav {
+}
+.header__nav-list {
+}
+.header__nav-item {
+}
+.header__nav-link {
     color: var(--logoo-color-);
+font-size: 14px;
+font-weight: 400;
+}
+
+/* serviesec */
+.services {
+}
+.services__text {
+}
+.services__title {
+}
+
+/* works */
+.works {
+}
+.works__list {
+}
+.works__item {
+}
+.works__subtitle {
+}
+.works__text {
+  color: #B6B6B6;
+font-family: "Roboto";
+font-size: 15px;
+font-weight: 400;
+line-height: 1.46;
 }
