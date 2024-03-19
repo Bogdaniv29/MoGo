@@ -132,33 +132,32 @@ header {
 .team__text {
   text-align: center;
   color: #333;
-font-family: "Kaushan Script",sans-serif;
-font-size: 24px;
-font-weight: 400;
-padding-bottom: 17px;
+  font-family: "Kaushan Script", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 17px;
 }
 .team__title {
   text-align: center;
   color: #333;
-font-family: "Montserrat",sans-serif;
-font-size: 30px;
-font-weight: 700;
-font-variant: all-small-caps;
-padding-bottom: 85px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  padding-bottom: 85px;
 }
 .team__subtext {
   width: 1104px;
-height: 47px;
-  color: #B6B6B6;
-text-align: center;
-font-family: "Roboto",sans-serif;
-font-size: 15px;
-font-weight: 400;
-padding-bottom: 27px;
+  height: 47px;
+  color: #b6b6b6;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  padding-bottom: 27px;
 }
 .team-members {
   margin-bottom: 80px;
-
 }
 .team-members__list {
   display: flex;
@@ -167,36 +166,65 @@ padding-bottom: 27px;
   padding-right: 30px;
 }
 .team-members__img {
-padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 .team-members-name {
   color: #333;
-text-align: center;
-font-family: "Montserrat", sans-serif;
-font-size: 14px;
-font-weight: 400;
-font-variant: all-small-caps;
-padding-bottom: 11px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-variant: all-small-caps;
+  padding-bottom: 11px;
 }
 .team-members__position {
-  color: #B6B6B6;
-text-align: center;
-font-family: "Roboto", sans-serif;
-font-size: 15px;
-font-style: italic;
-font-weight: 300;
+  color: #b6b6b6;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
 }
 .footer .container {
-  border-top: 1px solid #B6B6B6;
+  border-top: 1px solid #b6b6b6;
   padding: 10px 0;
 }
 .footer__text {
+}
+.footer__text-one {
+  color: #333;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #f38181;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
 }
 .footer__form {
 }
 .footer__form__label {
 }
 .footer__form__input {
+  width: 230px;
+  height: 39px;
+  flex-shrink: 0;
+  stroke-width: 1px;
+  stroke: #b6b6b6;
+  color: #b6b6b6;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: normal;
+}
+.svg__button{
+  
 }
 .footer__fprm_button {
+  background: #95e1d3;
+  width: 150px;
+  height: 40px;
 }
