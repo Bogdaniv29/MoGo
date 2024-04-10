@@ -159,7 +159,7 @@ header {
 .team-members {
   margin-bottom: 80px;
 }
-.team-members__list {
+.team-members__list:hover {
   display: flex;
 }
 .team-members__item {
