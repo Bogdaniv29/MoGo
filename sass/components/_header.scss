@@ -1,0 +1,38 @@
+
+
+/* header */
+
+header {
+    padding-top: 32px;
+  }
+  
+  .header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header__logo {
+    color: var(--logoo-color-);
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .header__nav {
+  }
+  .header__nav-list {
+    display: flex;
+    gap: 55px;
+  }
+  .header__nav-item {
+  }
+  .header__nav-link {
+    color: var(--logoo-color-);
+    font-size: 14px;
+    font-weight: 400;
+  }
+   
+  .header__nav-link:hover,
+  .header__nav-link:focus {
+    color: #f38181;
+  }
+   
